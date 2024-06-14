@@ -109,6 +109,7 @@
 .work5,
 .work6 {
     flex-basis: 33%;
+    margin-top: 10px;
 }
 
 .work2 .lorem {
@@ -117,4 +118,49 @@
 
 .background {
     background-image: url('background.jpg');
+    width: 90%;
+    margin-left: 83px;
+}
+
+body {
+    background-color: gray;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    width: 1527px;
+    margin-left: 83px;
+    position: relative;
+    height: 300px;
+}
+
+#personal-details {
+    margin-right: 700px;
+}
+
+.manLooking {
+    width: 300px;
+    height: 90%;
+    margin-left: 700px;
+    position: absolute;
+    margin-top: 11px;
+}
+
+#mywork {
+    margin-left: 25%;
+}
+
+.my_work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 12.5%;
+}
+
+#personal-details {
+    margin-right: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
